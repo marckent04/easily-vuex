@@ -1,6 +1,6 @@
 {
   "name": "easily-vuex",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "do vuex simply, quickly and easly",
   "main": "index.js",
   "repository": {
@@ -10,10 +10,7 @@
   "bugs": {
     "url": "https://github.com/marckent04/easly-vuex/issues"
   },
-  "author": {
-    "name": "Marc-Henry Nanguy",
-    "email": "marchenrynanguy1@gmail.com"
-  },
+  "author": "Marc-Henry Nanguy <marchenrynanguy1@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "lodash": "^4.17.21"
@@ -23,5 +20,10 @@
     "vue",
     "easily-vuex",
     "helpers"
-  ]
+  ],
+  "homepage": "https://github.com/marckent04/easly-vuex#readme",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }

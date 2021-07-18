@@ -9,8 +9,6 @@ export const mapWritableState = (options) => {
   options.fields.forEach((field) => {
     object[field] = {
       get() {
-        console.log("here", _.get(this.$store.state, path + field));
-
         return _.get(this.$store.state, path + field);
       },
       set(value) {
