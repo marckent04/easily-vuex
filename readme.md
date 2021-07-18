@@ -1,10 +1,10 @@
-## Quel problème cela resout ?
+## What problem does this solve?
 
-Creer les computed pour lier vos formulaires a votre store vuex simplement 
+-   form management with vuex
 
 ## fonctions disponibles
-- mapWritableState: mapper votre store  a votre composant
-- writeMutations: Generer vos mutations dans le store désiré
+- mapWritableState: map your store to your component
+- writeMutations: Generate your mutations
 
 ## Exemples
 
@@ -25,7 +25,7 @@ export default {
 }
 ```
 
-au lieu de 
+instead of
 
 ```javascript
 // mutations.js
@@ -63,7 +63,7 @@ export default {
 }
 ```
 
-au lieu de 
+instead of
 
 ```javascript
 // example.vue
