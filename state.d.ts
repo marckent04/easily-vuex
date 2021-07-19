@@ -3,4 +3,4 @@ export interface mapWritableStateOptions {
   fields: string[];
 }
 
-export const mapWritableState = (options: mapWritableStateOptions) => any;
+export declare function mapWritableState(options: mapWritableStateOptions): any;

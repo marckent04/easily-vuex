@@ -1,6 +1,6 @@
 export interface MutationOptions {
   fields: string[];
 }
-export const writeMutations = (options: MutationOptions) => any;
+export declare function writeMutations(options: MutationOptions): any;
 
-export const writeAllMutations = () => {};
+// export const writeAllMutations = () => {};

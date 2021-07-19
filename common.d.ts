@@ -1,1 +1,1 @@
-export const createPath = (path: string, isModule: boolean = false) => string;
+export declare function createPath(path: string, isModule: boolean): string;
