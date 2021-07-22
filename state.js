@@ -1,7 +1,7 @@
-import * as _ from "lodash";
+const _ = require("lodash");
 const { createPath } = require("./common");
 
-export const mapWritableState = (options) => {
+exports.mapWritableState = (options) => {
   const object = {};
 
   const path = createPath(options.base, true);

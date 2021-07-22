@@ -1,5 +1,6 @@
 exports.createPath = (path, isModule = false) => {
-  let truePath = path.replace(/\//gi, ".");
+  const regex = new RegExp("/", "gi");
+  let truePath = path.replace(regex, ".");
   if (isModule) {
     truePath += ".";
   }

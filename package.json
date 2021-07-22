@@ -1,14 +1,14 @@
 {
   "name": "easily-vuex",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "do vuex simply, quickly and easly",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marckent04/easly-vuex.git"
+    "url": "git+https://github.com/marckent04/easliy-vuex.git"
   },
   "bugs": {
-    "url": "https://github.com/marckent04/easly-vuex/issues"
+    "url": "https://github.com/marckent04/easily-vuex/issues"
   },
   "author": "Marc-Henry Nanguy <marchenrynanguy1@gmail.com>",
   "license": "MIT",

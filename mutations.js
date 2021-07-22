@@ -1,7 +1,7 @@
 const _ = require("lodash");
 const { createPath } = require("./common");
 
-export const writeMutations = (options) => {
+exports.writeMutations = (options) => {
   const obj = {};
 
   options.fields.forEach((field) => {
@@ -13,4 +13,4 @@ export const writeMutations = (options) => {
   return obj;
 };
 
-export const writeAllMutations = () => {};
+// exports.writeAllMutations = () => {};
