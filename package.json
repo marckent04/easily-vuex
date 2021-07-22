@@ -1,7 +1,7 @@
 {
   "name": "easily-vuex",
-  "version": "0.0.4",
-  "description": "do vuex simply, quickly and easly",
+  "version": "0.0.5",
+  "description": "do vuex simply, quickly and easily",
   "main": "index.js",
   "repository": {
     "type": "git",
