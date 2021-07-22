@@ -1,7 +1,2 @@
-const { writeMutations } = require("./mutations");
-const { mapWritableState } = require("./state");
-
-module.exports = {
-  writeMutations,
-  mapWritableState,
-};
+require("./mutations");
+require("./state");
