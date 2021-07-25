@@ -1,6 +1,6 @@
 {
   "name": "easily-vuex",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "do vuex simply, quickly and easly",
   "main": "index.js",
   "repository": {

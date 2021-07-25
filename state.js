@@ -4,7 +4,8 @@ const { createPath } = require("./common");
 exports.mapWritableState = (options) => {
   const object = {};
 
-  const path = createPath(options.base, true);
+  const base = options.prop ? this[options.prop] : options.base 
+  const path = createPath(base, true);
 
   options.fields.forEach((field) => {
     object[field] = {
@@ -12,7 +13,7 @@ exports.mapWritableState = (options) => {
         return _.get(this.$store.state, path + field);
       },
       set(value) {
-        this.$store.commit(options.base + "/" + field, value);
+        this.$store.commit(base + "/" + field, value);
       },
     };
   });
